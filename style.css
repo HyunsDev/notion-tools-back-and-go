@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.back {
+    width: 100vw;
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.night {
+    background-color: rgb(47, 52, 55);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#mode {
+    height: calc(100vh);
+    width: calc(100vw);
+}
+
+.day {
+    background-color: white;
+}
+
+.spacer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.memu {
+    font-size: 30px;
+    /* width: 40px;
+    height: 40px; */
+    position: fixed;
+    /* display: none; */
+    right: 10px;
+    bottom: -40px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.show {
+    transition: 0.5s;
+    display: block;
+    bottom: 10px;
+}

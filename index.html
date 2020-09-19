@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뒤로가기 버튼 | Notion Tools</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158793073-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-158793073-9');
+    </script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="mode" class="back day" >
+        <div id="memu" class="memu">
+            🌙
+        </div>
+        <div class="center">
+          <div class="icon" onclick="history.back(1, '_parent')">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="spacer"></div>
+          <div class="icon" onclick="history.go(1, '_parent')">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+<!-- 이 블록은 노션툴즈 개발자 혀느현스가 만든 블록이에요 -->
+<!-- 문의가 있으면 admin@notion-tools.com 으로 알려주세요! -->
+<!-- Notion Tools 노션툴즈 -->
+<!-- https://notion-tools.com -->
